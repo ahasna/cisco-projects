@@ -1,2 +1,2 @@
 # cisco-projects
-Private repo for my previous projects 
+my previous projects with Cisco Systems 
