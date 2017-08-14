@@ -67,14 +67,14 @@
 
 #### Use (ioxclient profile cr) to creat a new profile.
 
-![ioxclient-profile-example.PNG](/screenshots/ioxclient-profile-example.PNG)
+![ioxclient-profile-example.PNG](./screenshots/ioxclient-profile-example.PNG)
 
 ### 2- Creat package.yaml file inside your project file folder:
 #### ./youWorkingDirectory/package.yaml
 
 #### it should look somthing like this:
 
-![package.ymal.PNG](/screenshots/package.ymal.PNG)
+![package.ymal.PNG](./screenshots/package.ymal.PNG)
 
 
 ### 3- Creat the IOx package:
@@ -83,12 +83,12 @@
 
 ### Example:
 
-![Dockerworkflow.PNG](/screenshots/Dockerworkflow.PNG) 
+![Dockerworkflow.PNG](./screenshots/Dockerworkflow.PNG) 
 
 ### 4- Install the container on the IOx platform: 
 #### - use the command (ioxclient app --help) to get all the available subcommands to control the lifecycle for you application.
 
-![ioxclientapp.PNG](/screenshots/ioxclientapp.PNG)
+![ioxclientapp.PNG](./screenshots/ioxclientapp.PNG)
 
 #### use (ioxclient app install <app-name> <path-to-package>) to deploy the container on the IOx platform.
 
@@ -97,6 +97,6 @@
 
 #### Example for Cisco IOx Local Manager:
 
-![gui.PNG](/screenshots/gui.PNG)
+![gui.PNG](./screenshots/gui.PNG)
 
 
