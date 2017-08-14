@@ -32,7 +32,7 @@
 #### After choosing your favorite image you can build on top of it(you can add libraries, modules, etc) and the final Docker file should look like this: 
 
 
-![Dockerfile.PNG]("IR809 Project"/screenshots/screenshots/Dockerfile.PNG)
+![Dockerfile.PNG](/screenshots/Dockerfile.PNG)
 	
 #### Make sure that the Dockerfile name starts with Uppercase and it is identical to this "Dockerfile"
 #### *Please note that some images need requirments.txt file.You can find more details about this by visiting [Dockerhub Library](https://hub.docker.com/_/python/)
@@ -61,20 +61,20 @@
 
 #### The list of ioxclient profiles options looks like: 
 
-![ioxclient-profile.PNG](/IR809 Project/screenshots/ioxclient-profile.PNG) 
+![ioxclient-profile.PNG](./screenshots/ioxclient-profile.PNG) 
 
 #### You shouldn't change any settings when creating a profile except of the platform IP adress and your organisation name and website (optional).
 
 #### Use (ioxclient profile cr) to creat a new profile.
 
-![ioxclient-profile-example.PNG](/IR809 Project/screenshots/ioxclient-profile-example.PNG)
+![ioxclient-profile-example.PNG](/screenshots/ioxclient-profile-example.PNG)
 
 ### 2- Creat package.yaml file inside your project file folder:
 #### ./youWorkingDirectory/package.yaml
 
 #### it should look somthing like this:
 
-![package.ymal.PNG](/IR809 Project/screenshots/package.ymal.PNG)
+![package.ymal.PNG](/screenshots/package.ymal.PNG)
 
 
 ### 3- Creat the IOx package:
@@ -83,12 +83,12 @@
 
 ### Example:
 
-![Dockerworkflow.PNG](/IR809 Project/screenshots/Dockerworkflow.PNG) 
+![Dockerworkflow.PNG](/screenshots/Dockerworkflow.PNG) 
 
 ### 4- Install the container on the IOx platform: 
 #### - use the command (ioxclient app --help) to get all the available subcommands to control the lifecycle for you application.
 
-![ioxclientapp.PNG](/IR809 Project/screenshots/ioxclientapp.PNG)
+![ioxclientapp.PNG](/screenshots/ioxclientapp.PNG)
 
 #### use (ioxclient app install <app-name> <path-to-package>) to deploy the container on the IOx platform.
 
@@ -97,6 +97,6 @@
 
 #### Example for Cisco IOx Local Manager:
 
-![gui.PNG](/IR809 Project/screenshots/gui.PNG)
+![gui.PNG](/screenshots/gui.PNG)
 
 
