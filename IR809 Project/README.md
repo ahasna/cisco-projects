@@ -61,20 +61,20 @@
 
 #### The list of ioxclient profiles options looks like: 
 
-![ioxclient-profile.PNG](/"IR809 Project"/screenshots/ioxclient-profile.PNG) 
+![ioxclient-profile.PNG](/IR809 Project/screenshots/ioxclient-profile.PNG) 
 
 #### You shouldn't change any settings when creating a profile except of the platform IP adress and your organisation name and website (optional).
 
 #### Use (ioxclient profile cr) to creat a new profile.
 
-![ioxclient-profile-example.PNG](/"IR809 Project"/screenshots/ioxclient-profile-example.PNG)
+![ioxclient-profile-example.PNG](/IR809 Project/screenshots/ioxclient-profile-example.PNG)
 
 ### 2- Creat package.yaml file inside your project file folder:
 #### ./youWorkingDirectory/package.yaml
 
 #### it should look somthing like this:
 
-![package.ymal.PNG](/"IR809 Project"/screenshots/package.ymal.PNG)
+![package.ymal.PNG](/IR809 Project/screenshots/package.ymal.PNG)
 
 
 ### 3- Creat the IOx package:
@@ -83,12 +83,12 @@
 
 ### Example:
 
-![Dockerworkflow.PNG](/"IR809 Project"/screenshots/Dockerworkflow.PNG) 
+![Dockerworkflow.PNG](/IR809 Project/screenshots/Dockerworkflow.PNG) 
 
 ### 4- Install the container on the IOx platform: 
 #### - use the command (ioxclient app --help) to get all the available subcommands to control the lifecycle for you application.
 
-![ioxclientapp.PNG](/"IR809 Project"/screenshots/ioxclientapp.PNG)
+![ioxclientapp.PNG](/IR809 Project/screenshots/ioxclientapp.PNG)
 
 #### use (ioxclient app install <app-name> <path-to-package>) to deploy the container on the IOx platform.
 
@@ -97,6 +97,6 @@
 
 #### Example for Cisco IOx Local Manager:
 
-![gui.PNG](/"IR809 Project"/screenshots/gui.PNG)
+![gui.PNG](/IR809 Project/screenshots/gui.PNG)
 
 
